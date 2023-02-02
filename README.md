@@ -1,16 +1,9 @@
 # aritmia_mobile
 
-A new Flutter project.
+Classification and patient list for aryhtmia data 
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Run your local machine backend
+2. Change variable baseUrl on file constant.dart with your local IP Address on terminal (usually show after `flask run`)
+3. Make sure there is connected device or emulator
+4. Execute command `flutter run` on terminal
